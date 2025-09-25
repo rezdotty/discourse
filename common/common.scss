@@ -1,0 +1,61 @@
+:root {
+  --mtn-primary: #FFC001;
+  --mtn-secondary: #000;
+  --mtn-bg: #FFF;
+  --mtn-text: #000;
+  --d-sidebar-border-color: #CDD1D4;
+}
+
+
+body {
+    background: var(--mtn-bg);
+}
+
+.svg-icon, .svg-icon-title {
+    fill: var(--mtn-text);
+}
+
+/* Header */
+.d-header {
+  background-color: var(--mtn-primary);
+  border-radius: 0 0 8px 8px;
+}
+
+/* Welcome banner | Main Search */
+.welcome-banner {
+    &__search-menu {
+        max-width: 460px!important;
+    }
+}
+
+.search-input-wrapper {
+    .search-input {
+        border: 1.5px solid #B0B0B0;
+        border-radius: 12px;
+        padding: var(--space-2) 0;
+        .welcome-banner-search-input {
+            padding: 15px;
+        }
+    }
+}
+
+/* Sidebar */
+.sidebar-wrapper {
+    height: auto;
+    top: 80px;
+    .sidebar-container {
+        border: 1px solid var(--d-sidebar-border-color);
+        border-radius: 10px;
+    }
+}
+.sidebar-section-link-wrapper .sidebar-section-link--active, .sidebar-section-link-wrapper .sidebar-section-link.active {
+    background: #FFEBB0;
+}
+
+html:not(.composer-has-preview) {
+    .sidebar-wrapper {
+        .sidebar-container {
+            margin-top: 20px;
+        }
+    }
+}
