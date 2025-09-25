@@ -2,213 +2,141 @@
   --mtn-primary: #FFC001;
   --mtn-secondary: #000;
   --mtn-bg: #FFF;
-  --mtn-text: #000;
+  --mtn-text: #202020;
+  
+  /* Discourse Variables */
   --d-sidebar-border-color: #CDD1D4;
+  --d-border-radius: 8px;
+  --d-sidebar-admin-background: #FFF;
+  --tertiary-rgb: #ffebb0;
+  --d-sidebar-active-font-weight: 400;
+  --d-sidebar-section-link-icon-size: 16px;
+  --d-sidebar-link-icon-color: #A4AAB0;
+  --d-sidebar-active-color: #54575B;
+  --d-sidebar-link-color: #54575B;
+  --d-sidebar-row-height: 2.5em;
+  --d-button-default-icon-color--hover: currentColor;
+  --d-button-default-icon-color: currentColor;
 }
 
-/* ================== Irancell ================== */
+/* ================== @font-face ================== */
+@font-face {
+  font-family: "MTNIrancell";
+  src: url($MTNIrancell-Regular) format("woff"),
+  url($MTNIrancell-Regular-WOFF2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MTNIrancell";
+  src: url($MTNIrancell-Bold) format("woff"),
+  url($MTNIrancell-Bold-WOFF2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MTNIrancell";
+  src: url($MTNIrancell-Light) format("woff"),
+  url($MTNIrancell-Light) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Irancell Medium */
 @font-face {
   font-family: "Irancell";
-  src: url($Irancell-Medium) format("woff2"),
-       url($Irancell-Medium) format("woff"),
-       url($Irancell-Medium) format("truetype");
+  src: url($Irancell-Medium) format("woff"),
+  url($Irancell-Medium-WOFF2) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
-/* ================== MTNIrancell ================== */
-
-/* Regular */
+/* MTNBrighterSans */
 @font-face {
-  font-family: "MTNIrancell";
-  src: url($MTNIrancell-Regular) format("woff2"),
-       url($MTNIrancell-Regular) format("woff"),
-       url($MTNIrancell-Regular) format("truetype"),
-       url($MTNIrancell-Regular) format("embedded-opentype");
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-Regular) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-/* Bold */
-@font-face {
-  font-family: "MTNIrancell";
-  src: url($MTNIrancell-Bold) format("woff2"),
-       url($MTNIrancell-Bold) format("woff"),
-       url($MTNIrancell-Bold) format("truetype"),
-       url($MTNIrancell-Bold) format("embedded-opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Light */
-@font-face {
-  font-family: "MTNIrancell";
-  src: url($MTNIrancell-Light) format("woff2"),
-       url($MTNIrancell-Light) format("woff"),
-       url($MTNIrancell-Light) format("truetype"),
-       url($MTNIrancell-Light) format("embedded-opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ================== MTNBrighterSans ================== */
-
-/* Regular */
 @font-face {
   font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-Regular) format("woff"),
-       url($MTNBrighterSans-Regular) format("opentype"),
-       url($MTNBrighterSans-Regular) format("embedded-opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Regular Italic */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-RegularItalic) format("woff"),
-       url($MTNBrighterSans-RegularItalic) format("opentype"),
-       url($MTNBrighterSans-RegularItalic) format("embedded-opentype");
+  src: url($MTNBrighterSans-RegularItalic) format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
-/* Medium */
 @font-face {
   font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-Medium) format("woff"),
-       url($MTNBrighterSans-Medium) format("opentype"),
-       url($MTNBrighterSans-Medium) format("embedded-opentype");
+  src: url($MTNBrighterSans-Medium) format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
-/* Medium Italic */
 @font-face {
   font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-MediumItalic) format("woff"),
-       url($MTNBrighterSans-MediumItalic) format("opentype"),
-       url($MTNBrighterSans-MediumItalic) format("embedded-opentype");
+  src: url($MTNBrighterSans-MediumItalic) format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
-/* Bold */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-Bold) format("woff"),
-       url($MTNBrighterSans-Bold) format("opentype"),
-       url($MTNBrighterSans-Bold) format("embedded-opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Bold Italic */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-BoldItalic) format("woff"),
-       url($MTNBrighterSans-BoldItalic) format("opentype"),
-       url($MTNBrighterSans-BoldItalic) format("embedded-opentype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ExtraLight */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-ExtraLight) format("woff"),
-       url($MTNBrighterSans-ExtraLight) format("opentype"),
-       url($MTNBrighterSans-ExtraLight) format("embedded-opentype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ExtraLight Italic */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-ExtraLightItalic) format("woff"),
-       url($MTNBrighterSans-ExtraLightItalic) format("opentype"),
-       url($MTNBrighterSans-ExtraLightItalic) format("embedded-opentype");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ExtraBold */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-ExtraBold) format("woff"),
-       url($MTNBrighterSans-ExtraBold) format("opentype"),
-       url($MTNBrighterSans-ExtraBold) format("embedded-opentype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ExtraBold Italic */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-ExtraBoldItalic) format("woff"),
-       url($MTNBrighterSans-ExtraBoldItalic) format("opentype"),
-       url($MTNBrighterSans-ExtraBoldItalic) format("embedded-opentype");
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Light */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-Light) format("woff"),
-       url($MTNBrighterSans-Light) format("opentype"),
-       url($MTNBrighterSans-Light) format("embedded-opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Light Italic */
-@font-face {
-  font-family: "MTNBrighterSans";
-  src: url($MTNBrighterSans-LightItalic) format("woff"),
-       url($MTNBrighterSans-LightItalic) format("opentype"),
-       url($MTNBrighterSans-LightItalic) format("embedded-opentype");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
+/* ================== General ================== */
 body {
     background: var(--mtn-bg);
+      font-family: "MTNIrancell", "Irancell", "MTNBrighterSans", sans-serif;
 }
 
-.svg-icon, .svg-icon-title {
-    fill: var(--mtn-text);
+.loading-indicator-container .loading-indicator {
+    background-color: #000;
 }
 
-/* Header */
+/* ================== Header ================== */
 .d-header {
   background-color: var(--mtn-primary);
   border-radius: 0 0 8px 8px;
 }
 
-/* Welcome banner | Main Search */
+/* ======== Welcome banner | Main Search ========= */
 .welcome-banner {
     &__search-menu {
         max-width: 460px!important;
+        z-index: 1;
+    }
+    
+    &__title {
+        color: #171717;
+        font-size: 28px;
+        margin-bottom: 32px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    &__wrap {
+        padding-top: 44px;
+        padding-bottom: 50px;
+        background-image: url($welcome-bg);
+        background-color: #F5F5F5;
+        
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 250px;
+            background: linear-gradient(to top, #FFF 0, transparent 100%);
+            pointer-events: none;
+        }
     }
 }
 
@@ -223,7 +151,20 @@ body {
     }
 }
 
-/* Sidebar */
+/* ================== Sidebar ================== */
+.sidebar-search {
+    &__shortcut-hint {
+        background-color: var(--tertiary-rgb);
+        white-space: nowrap;
+    }
+}
+
+.sidebar-section-link-wrapper {
+    .sidebar-section-link {
+        font-size: 16px;
+    }
+}
+
 .sidebar-wrapper {
     height: auto;
     top: 80px;
@@ -234,12 +175,106 @@ body {
 }
 .sidebar-section-link-wrapper .sidebar-section-link--active, .sidebar-section-link-wrapper .sidebar-section-link.active {
     background: #FFEBB0;
+    border-radius: 4px;
 }
 
 html:not(.composer-has-preview) {
     .sidebar-wrapper {
         .sidebar-container {
             margin-top: 20px;
+        }
+    }
+}
+
+
+/* ================== Navpills ================== */
+.nav-pills {
+    gap: 16px;
+    
+    li {
+        a , button {
+            border-radius: 12px;
+            padding: 6px 24px;
+            font-size: 14px;
+            color: #202020;
+            background: #FFF;
+            border: 1px solid #B0B0B0;
+            transition: background-color .2s ease;
+            &.active {
+                color: var(--mtn-text);
+                background: var(--mtn-primary);
+                border: 1px solid var(--mtn-primary);
+
+                &:after {
+                    content: none;
+                }
+            }
+            
+            &:hover {
+                color: var(--mtn-text);
+                background: var(--mtn-primary);
+                border: 1px solid var(--mtn-primary);
+            }
+        }
+    }
+}
+
+.category-breadcrumb {
+
+    li {
+        margin-right: 16px;
+    }
+}
+
+/* ================== select kit ================== */
+.list-controls .combo-box .combo-box-header {
+    font-size: 14px;
+}
+
+.select-kit {
+    .select-kit-header {
+        &:not(.btn) {
+            border-radius: 12px;
+        }
+    }
+}
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
+    border-color: var(--mtn-primary);
+    outline: 2px solid var(--mtn-primary);
+}
+
+.select-kit.combo-box.tag-drop .select-kit-row[data-value=all-tags], .select-kit.combo-box.tag-drop .select-kit-row[data-value=no-tags] {
+    color: #8E949D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.select-kit .select-kit-filter .filter-input {
+    font-size: 14px;
+}
+
+.select-kit.is-loading .select-kit-filter::after {
+    background: var(--mtn-primary);
+}
+
+.select-kit .no-content, .select-kit .results-count {
+    font-size: 14px;
+}
+
+/* ================== Button ================== */
+.btn, .d-modal.json-schema-editor-modal .je-ready button, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add {
+    background-color: var(--mtn-primary);
+    color: var(--mtn-text);
+    font-size: 14px;
+    border-radius: 12px;
+    transition: background-color .2s ease;
+    &:hover {
+        background-color: #e8af01!important;
+        color: var(--mtn-text)!important;
+        
+        span {
+            color: var(--mtn-text)!important;
         }
     }
 }
