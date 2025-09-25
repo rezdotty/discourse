@@ -6,6 +6,190 @@
   --d-sidebar-border-color: #CDD1D4;
 }
 
+/* ================== Irancell ================== */
+
+/* Irancell Medium */
+@font-face {
+  font-family: "Irancell";
+  src: url($Irancell-Medium) format("woff2"),
+       url($Irancell-Medium) format("woff"),
+       url($Irancell-Medium) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================== MTNIrancell ================== */
+
+/* Regular */
+@font-face {
+  font-family: "MTNIrancell";
+  src: url($MTNIrancell-Regular) format("woff2"),
+       url($MTNIrancell-Regular) format("woff"),
+       url($MTNIrancell-Regular) format("truetype"),
+       url($MTNIrancell-Regular) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "MTNIrancell";
+  src: url($MTNIrancell-Bold) format("woff2"),
+       url($MTNIrancell-Bold) format("woff"),
+       url($MTNIrancell-Bold) format("truetype"),
+       url($MTNIrancell-Bold) format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: "MTNIrancell";
+  src: url($MTNIrancell-Light) format("woff2"),
+       url($MTNIrancell-Light) format("woff"),
+       url($MTNIrancell-Light) format("truetype"),
+       url($MTNIrancell-Light) format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================== MTNBrighterSans ================== */
+
+/* Regular */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-Regular) format("woff"),
+       url($MTNBrighterSans-Regular) format("opentype"),
+       url($MTNBrighterSans-Regular) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular Italic */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-RegularItalic) format("woff"),
+       url($MTNBrighterSans-RegularItalic) format("opentype"),
+       url($MTNBrighterSans-RegularItalic) format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-Medium) format("woff"),
+       url($MTNBrighterSans-Medium) format("opentype"),
+       url($MTNBrighterSans-Medium) format("embedded-opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-MediumItalic) format("woff"),
+       url($MTNBrighterSans-MediumItalic) format("opentype"),
+       url($MTNBrighterSans-MediumItalic) format("embedded-opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-Bold) format("woff"),
+       url($MTNBrighterSans-Bold) format("opentype"),
+       url($MTNBrighterSans-Bold) format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-BoldItalic) format("woff"),
+       url($MTNBrighterSans-BoldItalic) format("opentype"),
+       url($MTNBrighterSans-BoldItalic) format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-ExtraLight) format("woff"),
+       url($MTNBrighterSans-ExtraLight) format("opentype"),
+       url($MTNBrighterSans-ExtraLight) format("embedded-opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ExtraLight Italic */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-ExtraLightItalic) format("woff"),
+       url($MTNBrighterSans-ExtraLightItalic) format("opentype"),
+       url($MTNBrighterSans-ExtraLightItalic) format("embedded-opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-ExtraBold) format("woff"),
+       url($MTNBrighterSans-ExtraBold) format("opentype"),
+       url($MTNBrighterSans-ExtraBold) format("embedded-opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ExtraBold Italic */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-ExtraBoldItalic) format("woff"),
+       url($MTNBrighterSans-ExtraBoldItalic) format("opentype"),
+       url($MTNBrighterSans-ExtraBoldItalic) format("embedded-opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-Light) format("woff"),
+       url($MTNBrighterSans-Light) format("opentype"),
+       url($MTNBrighterSans-Light) format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: "MTNBrighterSans";
+  src: url($MTNBrighterSans-LightItalic) format("woff"),
+       url($MTNBrighterSans-LightItalic) format("opentype"),
+       url($MTNBrighterSans-LightItalic) format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
 
 body {
     background: var(--mtn-bg);
